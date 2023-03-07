@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>메뉴</title>
+    <style>
+        /* class로 작성할 때 */
+        .item{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid;
+            width: 300px;
+            padding: 5px;
+        }
+        /* 태그이름 선택자 */
+        img{
+            width: 250px;
+        }
+        body{
+            width: 100%;
+            height: 100vh;
+        }
+        #content{
+            width: 80%;
+            height: 100%;
+            background-color: green;
+            border-radius: 20px;
+            /* border-radius : 모서리 부분을 타원으로 깎아준다. */
+            border: 1px solid ;
+            padding: 50px;
+        }
+
+        #warp{
+            display: flex;
+            width: 100%;
+            height: 100%;
+            background-color: white;
+        }
+
+
+    </style>
+</head>
+<body>
+    <!-- 
+        1. 메뉴 하나 만들고
+            메뉴에 필요한 건
+            이미지, 제목, 서브제목
+            메뉴가 여러 개 일 것 같아.
+            > class로 만들어야겠다.
+     -->
+     <div id="content">
+         <div class="item">
+             <div id="warp"></div>
+             <img src="" alt="볶음밥">
+             <h1>볶음밥</h1>
+             <h2>5000원</h2>
+          </div>
+          <div class="item">
+             <img src="" alt="볶음밥">
+             <h1>볶음밥</h1>
+             <h2>5000원</h2>
+          </div>
+          <div class="item">
+             <img src="" alt="볶음밥">
+             <h1>볶음밥</h1>
+             <h2>5000원</h2>
+          </div>
+          <div class="item">
+             <img src="" alt="볶음밥">
+             <h1>볶음밥</h1>
+             <h2>5000원</h2>
+          </div>
+          <div class="item">
+             <img src="" alt="볶음밥">
+             <h1>볶음밥</h1>
+             <h2>5000원</h2>
+          </div>
+          <div class="item">
+             <img src="" alt="볶음밥">
+             <h1>볶음밥</h1>
+             <h2>5000원</h2>
+          </div>
+     </div>
+
+
+</body>
+</html>

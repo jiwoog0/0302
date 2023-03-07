@@ -1,0 +1,40 @@
+.sheet{
+    display: flex;
+    width: 80%;
+    height: 100%;
+    color: green;
+    padding: 50px;
+    box-sizing: border-box;
+    margin: 0%;
+    background-color: green;
+    border-radius: 10px;
+}
+
+.nn{
+    background-color: white;
+    width: 60%;
+    height: 80%;
+    padding: 30px;
+    display: flex;
+}
+
+
+.nm{
+    width: 100px;
+    height: 150px;
+    border: 1px solid black;
+
+
+}
+
+.nb{
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+}
+
+.mm{
+    display: block
+    
+}
+

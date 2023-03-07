@@ -1,0 +1,26 @@
+.sheet{
+    width: 100%;
+    height: 100%;
+    border: none;
+    
+}
+
+.nn{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    border-bottom: 1px solid black;
+}
+
+.nb{
+    width: 20%;
+    border: 1px solid black;
+    margin: 30px;
+}
+
+
+.nn div{
+    width: 
+    text-align: center;
+}
+

@@ -1,0 +1,20 @@
+.sheet{
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+}
+
+.nb{
+    background-color: gray;
+}
+
+.nn{
+    width: 100%;
+    display: flex;   
+}
+
+
+.nn div{
+    border: 1px solid black;
+    width: 100%;
+}
